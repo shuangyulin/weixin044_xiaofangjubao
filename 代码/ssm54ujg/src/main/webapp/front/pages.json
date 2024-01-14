@@ -1,0 +1,197 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+			,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/xiaofangyinhuanjubao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiaofangyinhuanjubao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiaofangyinhuanjubao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/xiaofangyinhuanfenlei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiaofangyinhuanfenlei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiaofangyinhuanfenlei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/tongjifenlei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tongjifenlei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/tongjifenlei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/chulijieguo/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/chulijieguo/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/chulijieguo/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+				,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white"
+		}
+	}
+					, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#CC99CC",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "消防隐患在线举报系统小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#996666",
+		"borderStyle": "black",
+		"backgroundColor": "#CC99CC",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+						
+						
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
